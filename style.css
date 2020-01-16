@@ -32,31 +32,10 @@ html, body{
 .card h1{
 	background: #fff;
 	padding: 5px;
-	border: 3px solid #3f888f;
-	outline: 2px solid pink;
+	
 }
 
 .row{
 	display: block;
 }
 
-@media (min-width: 960px) {
-	body{
-		background: red;
-	}
-
-/* das ist ein kommentar */
-	.row{
-		display: flex;
-		min-height: 600px;
-		background: blue;
-
-	}
-
-}
-
-@media (min-width: 1200px) {
-	body{
-		background: yellow;
-	}
-}
