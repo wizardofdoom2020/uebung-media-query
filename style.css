@@ -30,7 +30,7 @@ html, body{
 
 
 .card h1{
-	background: #fff;
+	background:purple;
 	padding: 5px;
 	
 }
@@ -39,3 +39,47 @@ html, body{
 	display: block;
 }
 
+#blau{
+	width: 200px;
+	height: 200px;
+	background: blue;
+}
+
+#rot{
+	width: 200px;
+	height: 200px;
+	background: red;
+}
+/*Responsive design Befehl Media Query heisst @media und runde Klammer. Mit der geschweiften Klammer beginnt dann der Styleguide für das responsive design. Daher am Ende 2 gschweifte Klammern nötig */
+@media (min-width:980px){
+.row{
+	display: flex;
+}
+/*Überschrift zentriert und all Caps einstellen*/
+h1{
+	text-align: center; 
+	text-transform: uppercase;
+	background-color:white;
+}
+#blau{display:none;}
+	
+}/* Hier endet der media query*/
+
+/*hier beginnt ein neuer media query*/
+@media (min-width:1600px){
+.wrapper{
+	width: 70%;
+}
+#rot{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	display: none; 
+}
+#blau{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	display: block
+}
+}
